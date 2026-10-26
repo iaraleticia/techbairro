@@ -2,7 +2,7 @@
 
 O TechBairro é um sistema de cadastro de clientes desenvolvido em Python com Tkinter e SQLite. Ele permite cadastrar, consultar, editar e excluir clientes, facilitando a organização das informações.
 
-**Versão atual:** 3.3.1· Histórico de mudanças no [CHANGELOG](CHANGELOG.md)
+**Versão atual:** 3.3.2· Histórico de mudanças no [CHANGELOG](CHANGELOG.md)
 
 ## Funcionalidades
 

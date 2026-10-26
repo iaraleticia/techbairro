@@ -1,10 +1,17 @@
 # CHANGELOG — TechBairro
 
+## v3.3.2 (Aula 27)
+### Adicionado
+- README com requisitos, instalação e configuração do banco.
+- Arquivo requirements.txt.
+- Manual de uso em docs/manual_de_uso.md.
+- Registro de testes em docs/registro_de_testes.md.
+
 ## Em desenvolvimento
 ### Adicionado
 - Código publicado no GitHub, com histórico de versões.
 
-## v3.3.0 (Aula 20)
+## v3.3.2 (Aula 20)
 
 ### Adicionado
 - Armazenamento temporário dos clientes em `clientes_na_tela`, mantendo a correspondência com os dados mostrados na Consulta.

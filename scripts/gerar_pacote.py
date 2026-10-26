@@ -9,7 +9,7 @@ PASTA_DOS_SCRIPTS = os.path.dirname(os.path.abspath(__file__))
 PASTA_DO_PROJETO = os.path.dirname(PASTA_DOS_SCRIPTS)
 
 # Mesma versão usada no atividade25.py
-VERSAO = "3.2.1"
+VERSAO = "3.2.2"
 
 # Pastas que NÃO entram no pacote
 PASTAS_FORA = ["dist", "__pycache__"]
