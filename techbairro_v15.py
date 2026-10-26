@@ -801,7 +801,7 @@ tk.Button(
 
 tk.Label(
     janela,
-    text="v3.2",
+    text="v3.3.2",
     fg="gray"
 ).place(
     relx=0.97,
