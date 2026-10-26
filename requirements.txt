@@ -1,0 +1,7 @@
+# A TechBairro não possui dependências externas.
+# O projeto utiliza apenas módulos da biblioteca padrão do Python.
+# Módulos utilizados:
+# tkinter - criação da interface gráfica.
+# tkinter.messagebox - exibição de mensagens e confirmações.
+# sqlite3 - armazenamento dos dados no banco de dados.
+# os - manipulação de caminhos e arquivos.
