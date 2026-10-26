@@ -1,88 +1,82 @@
-# Manual de Uso do Sistema TechBairro
+## Manual de uso da TechBairro
 
-## 1. Como iniciar o sistema
+## A tela principal
+A janela principal do sistema TechBairro permite cadastrar, consultar, alterar e excluir clientes. Nela, aparecem os campos para preencher o nome, telefone, e-mail e endereço do cliente, além dos botões para salvar os dados e realizar outras operações. A tela também apresenta mensagens de orientação e um contador que informa a quantidade de clientes cadastrados.
 
-1. Abra o projeto TechBairro no Visual Studio Code.
-2. Verifique se os arquivos necessários para o funcionamento do sistema estão na pasta do projeto.
-3. No menu superior, clique em **Terminal** e depois em **Novo Terminal**.
-4. Digite o comando para executar o arquivo principal do sistema. Caso o arquivo utilizado seja `techbairro_v15.py`, digite `python techbairro_v15.py`.
-5. Pressione Enter e aguarde a abertura da janela de cadastro de clientes.
+## Cadastrar um cliente
+1. Abra o sistema TechBairro.
+2. Preencha os campos com o nome, telefone, e-mail e endereço do cliente.
+3. Confira se todas as informações foram preenchidas corretamente.
+4. Clique no botão Salvar para registrar o cliente.
+5. Verifique a mensagem exibida na tela para confirmar se o cadastro foi realizado com sucesso.
+6. Observe se o contador de clientes cadastrados foi atualizado.
 
-## 2. Como cadastrar um cliente
+## Consultar os clientes cadastrados
+1. Na tela principal, clique no botão Consultar clientes para abrir a janela de consulta.
+2. Observe a lista de clientes cadastrados no sistema.
+3. Localize o cliente desejado pelo nome e selecione sua linha na lista.
+4. Confira os dados apresentados para identificar o cadastro correto.
+5. Abra novamente a consulta, quando necessário, para verificar os registros disponíveis.
 
-1. Na janela principal, localize os campos destinados às informações do cliente.
-2. Preencha o campo **Nome** com o nome completo da pessoa.
-3. Informe o número de telefone no campo **Telefone**.
-4. Digite o endereço de e-mail no campo **E-mail**.
-5. Preencha o campo **Endereço** com o endereço do cliente.
-6. Confira se todas as informações foram preenchidas corretamente.
-7. Clique no botão de salvar para registrar o cadastro.
-8. Verifique a mensagem apresentada pelo sistema para confirmar se o cadastro foi realizado ou se é necessário corrigir alguma informação.
+## Alterar os dados de um cliente
+1. Abra a janela de consulta dos clientes cadastrados.
+2. Selecione na lista o cliente que deseja alterar.
+3. Clique no botão Editar selecionado para carregar os dados no formulário principal.
+4. Modifique as informações necessárias, como nome, telefone, e-mail ou endereço.
+5. Observe que o botão Salvar será alterado para Salvar edição, indicando que o sistema está no modo de edição.
+6. Confira os dados e clique em Salvar edição para confirmar as alterações.
+7. Verifique a mensagem exibida na tela para confirmar se a atualização foi realizada corretamente.
+8. Caso não queira continuar, clique em Cancelar antes de salvar as mudanças.
 
-## 3. Como consultar os clientes
+## Excluir um cliente
+1. Abra a janela de consulta dos clientes cadastrados.
+2. Localize e selecione o cliente que deseja excluir.
+3. Clique no botão Excluir selecionado.
+4. Leia a mensagem de confirmação e confira o nome do cliente que será excluído.
+5. Se desejar continuar, clique em Sim. Caso contrário, clique em Não para cancelar a operação.
+6. Verifique a mensagem apresentada pelo sistema.
+7. Confira se o cliente foi removido da lista e se o contador foi atualizado.
 
-1. Na janela principal, clique no botão **Consultar** ou na opção correspondente.
-2. Aguarde a abertura da janela de consulta.
-3. Observe a lista de clientes cadastrados.
-4. Localize o cliente que deseja consultar.
-5. Clique sobre o nome correspondente para selecionar o cadastro.
-6. Confira as informações apresentadas na tela antes de realizar qualquer alteração.
+## Regras de preenchimento
+Campo	Obrigatório?	Regra
+Nome	 Sim	        Informe o nome completo do cliente, utilizando letras e espaços.
+Telefone Sim	        Informe um número de telefone válido para contato.
+E-mail	 Sim	        Informe um endereço de e-mail válido, com nome de usuário, @ e domínio.
+Endereço Sim	        Informe o endereço do cliente, incluindo rua, número e outras informações necessárias.
 
-## 4. Como editar um cadastro
+## Mensagens do sistema
+Mensagem	                               O que significa	                                                O que fazer
+Cliente cadastrado com sucesso!	           cadastro foi realizado corretamente.                             Confira os dados e verifique o contador de clientes.
+Cliente atualizado com sucesso!	           As alterações foram salvas.	                                    Confira se as informações foram atualizadas corretamente.
+Cliente excluído com sucesso!	           O cadastro foi removido do sistema.	                            Verifique se o cliente não aparece mais na lista.
+Nenhum cliente cadastrado ainda.           Não há clientes registrados no sistema.	                        Cadastre um cliente para começar a utilizar o sistema.
+Cliente não encontrado para atualização.   O sistema não encontrou o cadastro que deveria ser alterado. 	Consulte novamente os clientes e confira se o registro ainda existe.
+Selecione um cliente.	                   Nenhum cliente foi selecionado para a operação.	                Selecione um cliente na lista antes de editar ou excluir.
 
-1. Abra a janela de consulta e localize o cliente que deseja modificar.
-2. Selecione o cadastro correto.
-3. Clique no botão **Editar selecionado**.
-4. Verifique se as informações do cliente foram carregadas no formulário.
-5. Altere os campos necessários, como telefone, e-mail ou endereço.
-6. Confira os dados atualizados e clique em **Salvar edição**.
-7. Aguarde a mensagem de confirmação.
-8. Consulte novamente o cadastro para verificar se as alterações foram salvas corretamente.
+## Observação: 
+## Dúvidas frequentes
+## O que fazer quando não consigo cadastrar um cliente?
 
-## 5. Como cancelar uma edição
+Confira se todos os campos obrigatórios foram preenchidos corretamente e corrija as informações, caso necessário. Depois, tente salvar novamente.
 
-1. Selecione o cliente que deseja editar e clique em **Editar selecionado**.
-2. Faça as alterações necessárias no formulário.
-3. Caso não queira continuar, clique no botão **Cancelar**.
-4. Verifique a mensagem informando que a edição foi cancelada ou que o formulário foi limpo.
-5. Consulte novamente o cadastro para confirmar que as alterações não foram salvas.
+Como faço para alterar um cadastro?
 
-## 6. Como excluir um cliente
+Abra a consulta, selecione o cliente desejado e clique em Editar selecionado. Faça as alterações e clique em Salvar edição.
 
-1. Abra a janela de consulta e localize o cliente que deseja excluir.
-2. Selecione o cadastro correto.
-3. Confira o nome do cliente selecionado para evitar excluir outra pessoa por engano.
-4. Clique no botão **Excluir selecionado**.
-5. Leia a mensagem de confirmação apresentada pelo sistema.
-6. Se desejar concluir a exclusão, clique em **Sim**. Caso queira manter o cadastro, clique em **Não**.
-7. Após confirmar a exclusão, verifique se o cliente foi removido da lista.
-8. Se cancelar a operação, confirme que o cadastro continua disponível.
+É possível cancelar uma alteração?
 
-**Importante:** antes de confirmar uma exclusão, verifique cuidadosamente o nome do cliente selecionado, pois essa operação pode remover permanentemente o cadastro do banco de dados.
+Sim. Clique em Cancelar antes de salvar as mudanças para interromper a edição sem confirmar as alterações.
 
-## 7. Como verificar se as operações foram realizadas corretamente
+Como evitar excluir o cliente errado?
 
-1. Após cadastrar, editar ou excluir um cliente, observe a mensagem apresentada pelo sistema.
-2. Confira se a mensagem corresponde à operação realizada.
-3. Abra a consulta para verificar se os dados estão atualizados.
-4. Caso apareça uma mensagem de erro, leia as orientações apresentadas na tela.
-5. Se necessário, consulte o terminal do Visual Studio Code para verificar se foram exibidas informações sobre o problema.
+Selecione o cliente correto e confira o nome apresentado na mensagem de confirmação antes de clicar em Sim.
 
-## 8. Como encerrar o sistema
+O que acontece quando clico em Não na confirmação de exclusão?
 
-1. Finalize as operações que estiver realizando.
-2. Feche a janela de consulta, caso esteja aberta.
-3. Feche a janela principal do TechBairro.
-4. Certifique-se de que nenhuma operação esteja em andamento antes de encerrar o programa.
+A exclusão é cancelada, e o cadastro do cliente deve permanecer no sistema.
 
-## 9. Armazenamento e segurança dos dados
+Os clientes continuam cadastrados quando fecho o programa?
 
-O TechBairro utiliza o SQLite para armazenar os cadastros no arquivo `techbairro.db`. As informações permanecem salvas nesse arquivo para que possam ser consultadas novamente quando o sistema for aberto.
+Sim. Os dados são armazenados em um banco de dados SQLite, permitindo que os cadastros sejam recuperados quando o sistema for aberto novamente, desde que o banco de dados seja mantido no local correto.
 
-Para preservar os dados, recomenda-se realizar cópias de segurança regularmente. Antes de copiar o banco de dados, feche o sistema e armazene uma cópia do arquivo em um local seguro.
-
-O arquivo do banco de dados não deve ser enviado ao GitHub quando contiver informações pessoais de clientes, pois esses dados precisam ser protegidos. Por esse motivo, o arquivo `techbairro.db` deve ser incluído no `.gitignore`.
-
-## 10. Considerações finais
-
-O TechBairro foi desenvolvido para facilitar o cadastro e a organização das informações dos clientes. Para utilizar o sistema corretamente, é importante preencher os campos com atenção, conferir os dados antes de salvar e verificar o cadastro selecionado antes de realizar alterações ou exclusões.
+Importante: antes de alterar ou excluir um cadastro, confira se selecionou o cliente correto. Isso ajuda a evitar modificações ou exclusões indevidas.
