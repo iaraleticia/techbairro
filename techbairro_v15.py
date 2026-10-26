@@ -3,7 +3,7 @@ from tkinter import messagebox
 import sqlite3
 import os
 
-VERSAO = "3.2.2"
+VERSAO = "3.3.2"
 
 
 # ============================================================
