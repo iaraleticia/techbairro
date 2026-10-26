@@ -19,4 +19,4 @@ O projeto usa Git. Para ver o histórico, rode na pasta do projeto:
 git log --oneline
 
 Código-fonte e versões
-https//github.com/iaraleticia/techbairro/tree/f5ee6c4326aaa68df8f18c1755da4271449ec865o
+https://github.com/iaraleticia/techbairro/tree/main
