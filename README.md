@@ -14,7 +14,7 @@ O TechBairro é um sistema de cadastro de clientes desenvolvido em Python com Tk
 | Item | Requisito |
 |---|---|
 | Sistema operacional | Windows |
-| Python | Python 3 (versão testada: não informada) |
+| Python | Python 3 (versão testada: 3.3.2 ) |
 | Tkinter | Necessário para a interface gráfica |
 | Bibliotecas externas | Nenhuma além das dependências instaladas no projeto |
 | Internet | Necessária para baixar o projeto, não para utilizar o sistema localmente |
@@ -38,7 +38,7 @@ O passo a passo está no [Manual de uso](docs/manual_de_uso.md).
 - `__pycache__/`: armazena arquivos temporários gerados pelo Python.
 - `dist/`: pasta destinada aos arquivos de distribuição do sistema.
 - `docs/`: reúne a documentação, os registros das aulas, a modelagem do banco de dados, os testes e as verificações.
-- `scripts/`: contém scripts auxiliares para gerar pacotes, importar planilhas e verificar o banco de dados.
+- `scripts/`: contém scripts auxiliares p.ara gerar pacotes, importar planilhas e verificar o banco de dados.
 - `scripts/gerar_pacote.py`: gera o pacote de distribuição do projeto.
 - `scripts/importar_planilha_aba...`: script relacionado à importação de dados de planilhas.
 - `scripts/techbairro.db`: arquivo de banco de dados presente na pasta de scripts.
@@ -61,4 +61,4 @@ O passo a passo está no [Manual de uso](docs/manual_de_uso.md).
 
 Nome: Iara Letícia  
 Curso: Téccnico em Desenvolvimento de Sistemas  
-Instituição: Senac Ennius Muniz - Setor Comercial Sul 
+Instituição: Senac Ennius Muniz - Setor Comercial Sul .
